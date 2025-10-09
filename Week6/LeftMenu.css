@@ -17,7 +17,7 @@
 }
 
 .menu ul {
-    list-style: inside url(../img/bullet.png);
+    list-style: inside url(bullet.png);
     box-shadow: 5px 5px 10px #000;
     border: 1px solid #000;
     width: 148px;
@@ -31,7 +31,7 @@
     cursor: pointer;
     text-transform: capitalize;
 }
-.menu li :hover {
+.menu li:hover {
     background-color: #ff9;
     font-weight: bold;
     color: #f00;
