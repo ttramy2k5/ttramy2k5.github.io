@@ -34,5 +34,5 @@
 .menu li :hover {
     background-color: #ff9;
     font-weight: bold;
-    color: red;
+    color: #f00;
 }
