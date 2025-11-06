@@ -64,5 +64,64 @@
 <p>This is the full content line 2</p> 
 </details>
 <video src="../Week4/Amanoi.mp4" controls width="400"></video>
+<form> 
+    <label for="your_email">Input your name:</label>
+    <input type="text" id="your_name" name="your_name">
+    <br>
+    <label for="your_email">Input your email:</label>
+    <input type="email" id="your_email" name="your_email">
+    <br>
+    <label for="checkbox_sample">Checkbox:</label>
+    <input type="checkbox" name="courses_attended" id="course1" value="course1">
+    <label for="course1">Course 1</label>
+    
+    <input type="checkbox" name="courses_attended" id="course2" value="course2">
+    <label for="course2">Course 2</label>
+    <br>
+    <label for="prefered_contact">Your prefered contact </label>
+    <input type="radio" name="prefered_contact" id="contact_email" value="email">
+    <label for="contact_email">Email</label>
+    <input type="radio" name="prefered_contact" id="contact_phone" value="Phone">
+    <label for="contact_phone">Phone</label>
+    <br>
+    <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option> 
+        </select>
+        <br>
+        <input type="file" name="file" id="file">
+        <br>
+        <textarea name="large_text" id="large_text" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+ <div class="container">
+    <h2>Contact us</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <label for="name">Full name *</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+      <label for="subject">Subject *</label>
+      <select id="subject" name="subject" required>
+        <option value="">Select a subject</option>
+        <option value="support">Support</option>
+        <option value="feedback">Feedback</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+      <label for="file">Attach Files</label>
+      <input type="file" id="file" name="file" multiple>
+
+      <button type="submit">Send</button>
+    </form>
+</form>
 </body>
 </html>
