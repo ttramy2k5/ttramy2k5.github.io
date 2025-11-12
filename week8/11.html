@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Circle</title>
+<script language="javascript">
+    var r = prompt("Enter radius of circle:");
+
+    if (r == null || r == "" || isNaN(r)) {
+        document.write("<font color='red'>Invalid input! You must enter a number.</font>");
+    }
+    else {
+        r = parseFloat(r);
+        var pi = 3.14;
+
+        var perimeter = 2 * pi * r;
+        var area = pi * r * r;
+
+        document.write("<h3>Circle Result:</h3>");
+        document.write("Radius = " + r + "<br><br>");
+        document.write("Perimeter = " + perimeter + "<br>");
+        document.write("Area = " + area);
+    }
+</script>
+</head>
+
+<body>
+</body>
+</html>
